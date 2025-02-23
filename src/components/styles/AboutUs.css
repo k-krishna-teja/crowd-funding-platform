@@ -1,0 +1,18 @@
+.about-us-container {
+  background: url('../assets/minimalist image on donation without hands and hearts.png') no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+  background-blend-mode: darken; /* Blend the overlay with the image */
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff; /* Change text color to white */
+}
+
+.about-us-container h1, .about-us-container p {
+  color: #ffffff; /* Ensure all text elements are white */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a subtle shadow to make text stand out */
+  font-size: 1.5rem; /* Make text larger */
+}
