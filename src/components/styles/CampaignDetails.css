@@ -1,63 +1,56 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.campaign-details-container {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
-}
-
-.text-primary {
-    color: #6f42c1; /* Matching the purple color from the button */
-}
-
-.campaigns {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.campaign-card {
-    background-color: #fdfcff; /* Light purple background */
-    border: 1px solid #ced4da; /* Light border */
-    border-radius: 12px; /* Matching the border radius */
-    padding: 20px;
-    width: calc(33.333% - 20px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Matching the shadow */
-}
-
-.campaign-card h2 {
-    margin-top: 0;
-    color: #333; /* Darker text color */
-}
-
-.campaign-card p {
-    color: #6c757d;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 6px; /* Matching the border radius */
-    cursor: pointer;
     text-align: center;
-    text-decoration: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .campaign-details-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .campaign-details-container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .campaign-details-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
     font-size: 16px;
-}
-
-.btn-primary {
-    background-color: #6f42c1; /* Purple button */
-    color: #fff;
-}
-
-.btn-primary:hover {
-    background-color: #5100b8; /* Darker purple on hover */
-}
-
-.btn-secondary {
-    background-color: #6c757d;
-    color: #fff;
-}
-
-.btn-secondary:hover {
-    background-color: #5a6268;
-}
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .loading-message {
+    color: #007bff;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
